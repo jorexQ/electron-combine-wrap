@@ -1,0 +1,22 @@
+{
+  "name": "q-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorexQ/electronQbox.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/jorexQ/electronQbox/issues"
+  },
+  "homepage": "https://github.com/jorexQ/electronQbox#readme"
+}
