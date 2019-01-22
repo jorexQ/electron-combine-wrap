@@ -1,0 +1,23 @@
+{
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/**.js": {
+            "when": "$(basename).tsx"
+        },
+        "**/**.js.map": true,
+        "**/**.css.map": true
+    },
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true
+}
