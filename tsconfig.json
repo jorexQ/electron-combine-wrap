@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "strictBindCallApply": true,
+
+    //"importHelpers": true,
+
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    //"strict": true,
+    //"alwaysStrict": true,
+
+    //"noUnusedLocals": true,
+    //"noUnusedParameters": true,
+
+    "module": "CommonJS",
+    "types": ["reflect-metadata"],
+    "lib": ["es6", "dom"],
+    "target": "es6",
+    "jsx": "react",
+    "allowJs": true
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules", "dist", "webpack"]
+}
